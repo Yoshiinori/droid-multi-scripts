@@ -5,7 +5,7 @@ json()
 {
   cat <<EOF
 {
-  "odr": $odr
+  "odr": "$odr"
 }
 EOF
 }
