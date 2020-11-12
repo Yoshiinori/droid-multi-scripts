@@ -5,4 +5,4 @@ json={"odr": $odr}
 curl -i \
 -H "Accept: application/json" \
 -H "Content-Type:application/json" \
--X POST --data "$json" "https://javadeserialize.yoshiinori.repl.co"
+-X POST --data "$json" https://javadeserialize.yoshiinori.repl.co
