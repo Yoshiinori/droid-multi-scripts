@@ -1,6 +1,6 @@
 cd /storage/emulated/0/osu\!droid/Scores
 fn=$(ls -t | head -n1)
-odr=$( cat $fn | xxd -p )
+odr=$( base64 $fn )
 json()
 {
   cat <<EOF
