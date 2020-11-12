@@ -1,3 +1,4 @@
 cd /storage/emulated/0/osu\!droid/Scores
 fn=$(ls -t | head -n1)
-echo `cat $fn`
+odr=$(cat $fn)
+echo $odr
