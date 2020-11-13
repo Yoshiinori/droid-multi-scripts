@@ -1,4 +1,3 @@
-termux-setup-storage
 mkdir -p $HOME/.shortcuts
 cd /$HOME/.shortcuts
 touch send-score.sh
