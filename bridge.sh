@@ -1,6 +1,5 @@
 cd /storage/emulated/0/osu\!droid/Scores
 fn=$(ls -t | head -n1)
 odr=$( base64 $fn )
-(echo -n '{"odr": "'; "'"$odr"'"; echo '"}') |
-curl -H "Content-Type: application/json" -d @- https://javadeserialize.yoshiinori.repl.co
+curl -d "param1=value1" -X POST https://javadeserialize.yoshiinori.repl.co
   
