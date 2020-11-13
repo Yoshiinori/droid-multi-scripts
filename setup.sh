@@ -1,4 +1,4 @@
-mkdir -p $HOME/.shortcuts && cd $HOME/.shortcuts && curl https://github.com/Yoshiinori/droid-multi-scripts/releases/download/beta/send-score.sh > try.sh
+mkdir -p $HOME/.shortcuts && cd $HOME/.shortcuts && curl https://raw.githubusercontent.com/Yoshiinori/droid-multi-scripts/main/send-score.sh > try.sh
 
 
 
