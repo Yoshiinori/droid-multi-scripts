@@ -1,7 +1,7 @@
-echo ehusi
 cd /storage/emulated/0/osu\!droid/Scores
 fn=$(ls -t | head -n1)
-odr=$( printf base64 $fn )
+data=$( base64 $fn )
+odr=$( printf $data )
 json()
 {
   cat <<EOF
